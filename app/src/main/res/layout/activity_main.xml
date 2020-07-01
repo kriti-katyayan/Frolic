@@ -25,12 +25,13 @@
         app:layout_constraintVertical_bias="0.977" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
         android:text="Register."
+        android:clickable="true"
         android:textColor="@color/blue"
         android:textSize="16sp"
         app:fontFamily="@font/bold"
