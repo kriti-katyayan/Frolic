@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "343288391155",
+    "firebase_url": "https://tiaaprepupproject.firebaseio.com",
+    "project_id": "tiaaprepupproject",
+    "storage_bucket": "tiaaprepupproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343288391155:android:8b3fd2f0f886123af3de86",
+        "android_client_info": {
+          "package_name": "com.tiaa.tiaaprepupproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343288391155-v8dshqrhonpbmea98et51sjs5em2mi33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiaa.tiaaprepupproject",
+            "certificate_hash": "24bfaddc5ac8d5e5ab44e9cbc7fc7d82a3e7faaf"
+          }
+        },
+        {
+          "client_id": "343288391155-celedgu891th95rf2508l6ud65i0bepg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx03DmqPzCk5sjB6_OWgD7BM-54uOiZaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343288391155-celedgu891th95rf2508l6ud65i0bepg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
