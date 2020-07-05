@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="8dp"
-        app:cardElevation="8dp"
+        app:cardElevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -32,7 +32,7 @@
                 tools:ignore="VectorDrawableCompat" />
 
             <TextView
-                android:id="@+id/textTitle"
+                android:id="@+id/eventTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -40,13 +40,13 @@
                 android:text="Sample card Title"
                 android:textColor="@color/blue"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="@+id/textDesc"
+                app:layout_constraintBottom_toTopOf="@+id/eventDesc"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textDesc"
+                android:id="@+id/eventDesc"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"

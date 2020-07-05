@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent recAct=new Intent(LoginActivity.this, RecyclerActivity.class);
+                Intent recAct=new Intent(LoginActivity.this, FirebaseRecycleActivity.class);
                 startActivity(recAct);
             }
         });

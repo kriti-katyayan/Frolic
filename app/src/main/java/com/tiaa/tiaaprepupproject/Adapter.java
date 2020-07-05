@@ -47,8 +47,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         TextView textTitle, textDesc;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            textTitle = itemView.findViewById(R.id.textTitle);
-            textDesc=itemView.findViewById(R.id.textDesc);
+            textTitle = itemView.findViewById(R.id.eventTitle);
+            textDesc=itemView.findViewById(R.id.eventDesc);
         }
     }
 

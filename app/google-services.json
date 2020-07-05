@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "343288391155-ipjplg215tkchogndqgtoklch1kbvsa1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiaa.tiaaprepupproject",
+            "certificate_hash": "b0707021953f1f312dccf182b83edb84cc86104e"
+          }
+        },
+        {
           "client_id": "343288391155-v8dshqrhonpbmea98et51sjs5em2mi33.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
