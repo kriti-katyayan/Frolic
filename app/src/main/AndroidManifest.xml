@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FirebaseRecycleActivity"></activity>
+        <activity android:name=".TeamRegistration"></activity>
+        <activity android:name=".EventActivity" />
+        <activity android:name=".FirebaseRecycleActivity" />
         <activity android:name=".RecyclerActivity" />
         <activity
             android:name=".RegisterActivity"

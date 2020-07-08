@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeamRegistration">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Registration"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:textColor="@color/blue"
+        android:textSize="28dp"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:text="Player Details"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/player1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/teamName"
+        android:layout_width="310dp"
+        android:layout_height="30sp"
+        android:textSize="16sp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:fontFamily="@font/playfairdisplayregular"
+        android:hint="Team Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <EditText
+        android:id="@+id/teamLeader"
+        android:layout_width="310dp"
+        android:layout_height="30sp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:fontFamily="@font/playfairdisplayregular"
+        android:hint="Team Leader's Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/gray"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamEmail"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <EditText
+        android:id="@+id/teamEmail"
+        android:layout_width="310dp"
+        android:layout_height="30sp"
+        android:layout_marginBottom="404dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:fontFamily="@font/playfairdisplayregular"
+        android:hint="Team's email"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/gray"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamName"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <EditText
+        android:id="@+id/player1"
+        android:layout_width="310dp"
+        android:layout_height="30sp"
+        android:layout_marginBottom="280dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:fontFamily="@font/playfairdisplayregular"
+        android:hint="Player 1"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/gray"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamLeader"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <EditText
+        android:id="@+id/player2"
+        android:layout_width="310dp"
+        android:layout_height="30sp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:fontFamily="@font/playfairdisplayregular"
+        android:hint="Player 2"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/gray"
+        android:textSize="16sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player1"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <EditText
+        android:id="@+id/player3"
+        android:layout_width="310dp"
+        android:layout_height="30sp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:fontFamily="@font/playfairdisplayregular"
+        android:hint="Player 3"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/gray"
+        android:textSize="16sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player2"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <TextView
+        android:id="@+id/Terms"
+        android:layout_width="310dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/playfairdisplayregular"
+        android:text="Mention terms and conditions here..."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player3"
+        app:layout_constraintVertical_bias="0.46" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:text="Terms and Conditions"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/Terms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player3"
+        app:layout_constraintVertical_bias="0.562" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Terms"
+        app:layout_constraintVertical_bias="0.203" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

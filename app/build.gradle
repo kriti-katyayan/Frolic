@@ -43,11 +43,12 @@ dependencies {
     implementation 'com.android.support:recyclerview-v7:28.0.0'
     //noinspection GradleCompatible,GradleCompatible
     implementation 'com.android.support:cardview-v7:28.0.0'
-
-    // FirebaseUI for Cloud Firestore
+    implementation "androidx.drawerlayout:drawerlayout:1.1.0"
+    // FirebaseUI for Cloud Fire store
     implementation 'com.firebaseui:firebase-ui-firestore:6.2.1'
 
     implementation 'com.android.support:multidex:1.0.3'
 
-
+    //Material design
+    implementation 'com.google.android.material:material:1.1.0-alpha06'
 }
