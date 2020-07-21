@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fcfcfc"
+    android:gravity="center"
+    android:id="@+id/ll"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/playfairdisplaybold"
+        android:text="Dashboard"
+        android:textColor="@color/blue"
+        android:textSize="32sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_margin="10dp"
+        android:background="@color/light_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bankcardId"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="20dp"
+            android:outlineSpotShadowColor="#271B46"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circlebackgroundpurple"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_account_circle_24" />
+
+                <TextView
+                    android:id="@+id/profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Profile"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/playfairdisplaybold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/light_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Update your profile here."
+                    android:textColor="@color/gray"
+                    app:fontFamily="@font/playfairdisplayregular" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="20dp"
+            android:outlineSpotShadowColor="#271B46"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circlebackgroundyellow"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_lightbulb_outline_black_24dp" />
+
+                <TextView
+                    android:id="@+id/liveEvents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Live Events"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/playfairdisplaybold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/light_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Go Participate in the events."
+                    android:textColor="@color/gray"
+                    app:fontFamily="@font/playfairdisplayregular" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="20dp"
+            android:outlineSpotShadowColor="#271B46"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circlebackgroundgreen"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_control_point_black_24dp" />
+
+                <TextView
+                    android:id="@+id/organise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Organise"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/playfairdisplaybold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/light_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Create new events here."
+                    android:textColor="@color/gray"
+                    app:fontFamily="@font/playfairdisplayregular" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="160dp"-->
+<!--            android:layout_height="190dp"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:clickable="true"-->
+<!--            app:cardCornerRadius="20dp"-->
+<!--            android:outlineSpotShadowColor="#271B46"-->
+<!--            android:foreground="?android:attr/selectableItemBackground">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="64dp"-->
+<!--                    android:layout_height="64dp"-->
+<!--                    android:background="@drawable/circlebackgroundyellow"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:src="@drawable/ic_attach_file_black_24dp" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:text="Links"-->
+<!--                    android:textStyle="bold"-->
+<!--                    app:fontFamily="@font/playfairdisplaybold" />-->
+
+<!--                <View-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="1dp"-->
+<!--                    android:layout_margin="10dp"-->
+<!--                    android:background="@color/light_gray" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:gravity="center"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:text="Check your bank activities"-->
+<!--                    android:textColor="@android:color/darker_gray"-->
+<!--                    app:fontFamily="@font/playfairdisplayregular" />-->
+
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="340dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            app:cardCornerRadius="20dp"
+            android:outlineSpotShadowColor="#271B46"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circlebackgroundpurple"
+                    android:padding="10dp"
+                    android:src="@drawable/user_stats" />
+
+                <TextView
+                    android:id="@+id/stats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="My Statistics"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/playfairdisplaybold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/light_gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Check your previous records here."
+                    android:textColor="@color/gray"
+                    app:fontFamily="@font/playfairdisplayregular" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</LinearLayout>

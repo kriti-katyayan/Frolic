@@ -25,8 +25,6 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_login);
-
-
         backBtn=findViewById(R.id.backBtn);
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,11 +33,19 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
         loginBtn=findViewById(R.id.loginBtn2);
+//        loginBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent recAct=new Intent(LoginActivity.this, FirebaseRecycleActivity.class);
+//                startActivity(recAct);
+//            }
+//        });
+
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent recAct=new Intent(LoginActivity.this, FirebaseRecycleActivity.class);
-                startActivity(recAct);
+                Intent dash=new Intent(LoginActivity.this,Dashboard.class);
+                startActivity(dash);
             }
         });
 
